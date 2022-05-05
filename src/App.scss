@@ -1,0 +1,273 @@
+body {
+  background-color: lightgrey;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.control {
+  margin-top: 20px;
+}
+
+/* //CONTENEDOR*/
+
+.contenedor {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* //PAGINA PRINCIPAL*/
+
+.card-image {
+  background-color: black;
+  align-items: center;
+  max-width: 100%;
+}
+
+.card {
+  max-width: 100%;
+  align-items: center;
+}
+
+/* //GRILLA*/
+//layout pagina principal
+
+.layout {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+  height: 90%;
+  max-width: 80%;
+  padding-bottom: 150px;
+}
+
+.is-flex {
+  background-color: grey;
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    padding-top: 200px;
+  }
+}
+
+//SINGLE CONTENT
+.single {
+  background-color: lightgrey;
+  padding-top: 100px;
+  margin-left: 150px;
+  height: 90%;
+  max-width: 80%;
+  padding-bottom: 100px;
+}
+
+.box {
+  display: flex;
+  border-radius: 30px;
+  background-color: lightgrey;
+  box-shadow:inset;
+}
+
+.div_single {
+  width: 70%;
+  background-color: lightgrey;
+  margin-left: 20px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+    width: 100%;
+    position: relative;
+  }
+}
+.strong {
+  color: white;
+}
+.singleTitle {
+  margin: 30px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.content {
+  margin: 30px;
+}
+
+//FAVORITES
+
+.favorites{
+  background-color: lightgrey;
+  height: 100%;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding-top: 60px;
+
+}
+
+.personFavorites{
+  background-color: lightgrey;
+  height: 100%;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding-top: 60px;
+}
+
+.eachFav{
+  margin-top: 20px;
+  background-color:lightgrey ;
+}
+
+/*//NAVBAR*/
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  padding-top: 15px;
+  @media screen and (max-width: 768px) {
+    height: 200px;
+  }
+}
+
+
+.nombreNavbar {
+  color: grey;
+  
+}
+
+.navText{
+  color: grey
+}
+
+
+.button {
+  border-radius: 15px;
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.bott-log {
+  margin-left: 33%;
+}
+
+/*login-out*/
+
+.sign {
+  padding-top: 130px;
+  padding-bottom: 300px;
+}
+.register{
+  padding-top: 130px;
+  padding-bottom: 180px;
+}
+
+.formularioLogin {
+  @media screen and(max-width: 768px) {
+    width: 100%;
+    align-content: center;
+  }
+}
+
+.inputLogin {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 300px;
+  width: 50%;
+}
+
+.textLogin {
+  margin-left: 560px;
+}
+
+.textRegister {
+  margin-right: 100px;
+}
+.buttonLog {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 165px;
+
+  @media screen and(max-width: 768px) {
+    width: 30%;
+    align-items: flex-end;
+    margin-left: 230px;
+  }
+}
+
+.buttonReg {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 120px;
+  @media screen and(max-width: 768px) {
+    width: 50%;
+    align-items: flex-end;
+    margin-left: 210px;
+  }
+}
+
+/*//SEARCH */
+
+.buttonSearch {
+  border-radius: 15px;
+  margin-left: 25px;
+}
+
+.remove {
+  margin-left: 1100px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.redondo {
+  margin-left: 50%;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+/* USER PROFILE */
+
+.layoutPerfil {
+  width: 100%;
+  height: 100%;
+  padding-top: 90px;
+  background-color: lightgrey;
+}
+
+
+
+.nombre {
+  color: white;
+  font-size: 2em;
+  font-weight: normal;
+  margin-left: 50px;
+}
+.mail {
+  font-size: 1em;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+
+.noEncontrado{
+  height: 100vh;
+  color: grey;
+
+}
+
